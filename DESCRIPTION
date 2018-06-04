@@ -1,5 +1,5 @@
 Package: tidy-text-mining
-Title: Tidy Text Mining with R
+Title: Text Mining with R: A Tidy Approach
 Version: 0.0.0.9000
 Authors@R: c(person("David", "Robinson", email = "admiral.david@gmail.com", role = c("aut", "cre")),
              person("Julia", "Silge", email = "julia.silge@gmail.com", role = c("aut")))
@@ -15,6 +15,7 @@ Imports:
   gutenbergr,
   jsonlite,
   igraph,
+  ggraph,
   readr,
   tm,
   Matrix,
@@ -25,7 +26,6 @@ Imports:
   lubridate,
   stringr,
   ggforce,
+  widyr,
   mallet
-Remotes:
-  dgrtwo/widyr,
-  thomasp85/ggraph
+
